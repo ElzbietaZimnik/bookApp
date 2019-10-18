@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66623c0f-9548-4634-9cc0-3cdfc3bec70c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dane.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/BibliotekaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/LibraryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Options.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/dane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/ApplicationRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/BookApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/Books.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/comparator/ComparatorNumberOfPages.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SHAKRa68y4bduUqmLSv7ODRgro" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HospitalAplikation" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Start\IdeaProjects\gs-rest-service\BookAppJEDNAMETODA" />
+      <recent name="C:\Users\Start\IdeaProjects\gs-rest-service\BookAppJEDNAMETODA\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BibliotekaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.BibliotekaApp" />
+      <module name="BookAppJEDNAMETODA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BibliotekaApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66623c0f-9548-4634-9cc0-3cdfc3bec70c" name="Default Changelist" comment="" />
+      <created>1571210082829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571210082829</updated>
+      <workItem from="1571210088491" duration="5005000" />
+      <workItem from="1571297362695" duration="14340000" />
+      <workItem from="1571311736825" duration="9021000" />
+      <workItem from="1571395343016" duration="4009000" />
+      <workItem from="1571399827472" duration="524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BookAppJEDNAMETODA$BibliotekaApp.ic" NAME="BibliotekaApp Coverage Results" MODIFIED="1571296586317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>java.application.*</FILTER>
+    </SUITE>
+  </component>
+</project>

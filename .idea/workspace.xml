@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66623c0f-9548-4634-9cc0-3cdfc3bec70c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dane.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/BibliotekaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/LibraryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/dane.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/ApplicationRun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/BookApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/Books.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/application/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookAppNOWY/src/main/java/comparator/ComparatorNumberOfPages.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookAppJEDNAMETODA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dane.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dane.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/BibliotekaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/BibliotekaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BookAppJEDNAMETODA.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/BibliotekaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/BibliotekaApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/OPTIONS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/OPTIONS.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +37,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SHAKRa68y4bduUqmLSv7ODRgro" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HospitalAplikation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +73,7 @@
   <component name="RunManager">
     <configuration name="BibliotekaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.BibliotekaApp" />
-      <module name="BookAppJEDNAMETODA" />
+      <module name="booka" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
@@ -74,6 +83,53 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="bookApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="bookApp" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
@@ -97,6 +153,16 @@
       <workItem from="1571311736825" duration="9021000" />
       <workItem from="1571395343016" duration="4009000" />
       <workItem from="1571399827472" duration="524000" />
+      <workItem from="1571402980580" duration="544000" />
+      <workItem from="1571404094349" duration="1123000" />
+      <workItem from="1571410560183" duration="481000" />
+      <workItem from="1571411059440" duration="1594000" />
+      <workItem from="1571648698442" duration="5298000" />
+      <workItem from="1571664734990" duration="623000" />
+      <workItem from="1571740414009" duration="1901000" />
+      <workItem from="1572098189569" duration="1325000" />
+      <workItem from="1572258309798" duration="12224000" />
+      <workItem from="1572348906367" duration="553000" />
     </task>
     <servers />
   </component>

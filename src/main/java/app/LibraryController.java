@@ -68,7 +68,7 @@ public class LibraryController {
 
     private void saveToFileSortedByTitle() {
         try {
-            FileUtils.save(library.getSortedBooks(Comparator.comparing(Books::getTitle)));
+            FileUtils.save(library);
             System.out.println("Changes saved successfully");
         } catch (IOException e) {
             System.err.println("Failed to save changes");
@@ -79,22 +79,29 @@ public class LibraryController {
     private void searchByAuthor() {
         System.out.println("Enter author:");
         String author = input.nextLine();
-        library.findByAuthor(author)
-                .filter(x -> x.getAuthor().contains(author))
-                .map(Books::toString)
-                .ifPresent(System.out::println);
+        List<Books> byAuthor = library.findByAuthor(author);
+        if (byAuthor.isEmpty()) {
+            System.out.println("No results");
+        } else {
+            System.out.println("Results found:");
+            byAuthor.stream()
+                    .map(Books::toString)
+                    .forEach(System.out::println);
+        }
     }
 
 
     private void searchByIsbn() {
         System.out.println("Enter isbn:");
         String isbn = input.nextLine();
-        List<Books> contacts = library.findByIsbn(isbn);
-        if (contacts.isEmpty()) {
+        List<Books> byIsbn = library.findByIsbn(isbn);
+        if (byIsbn.isEmpty()) {
             System.out.println("No results");
         } else {
             System.out.println("Results found:");
-            contacts.forEach(System.out::println);
+            byIsbn.stream()
+                    .map(Books::toString)
+                    .forEach(System.out::println);
         }
     }
 
@@ -102,25 +109,28 @@ public class LibraryController {
     private void searchByType() {
         System.out.println("Enter type:");
         String programmingLanguage = input.nextLine();
-        List<Books> contacts = library.findByType(programmingLanguage);
-        //ify - smutne metody
-        if (contacts.isEmpty()) {
+        List<Books> byType = library.findByType(programmingLanguage);
+        if (byType.isEmpty()) {
             System.out.println("No results");
         } else {
             System.out.println("Results found:");
-            contacts.forEach(System.out::println);
+            byType.stream()
+                    .map(Books::toString)
+                    .forEach(System.out::println);
         }
     }
 
 
     public void largestNumberOfPages() {
+        System.out.println("Book with the largest number of pages:");
         library.maxNunberOfPages();
     }
 
 
     private void sortBookByReleaseYear() {
-        List<Books> sorted = library.getSortedBooks(Comparator.comparingInt(Books::getReleaseYear).reversed());
-        System.out.println(sorted);
+        System.out.println("Sorted books:");
+        Collection<Books> sorted = library.getSortedBooks((Comparator.comparingInt(Books::getReleaseYear).reversed()));
+        sorted.forEach(System.out::println);
     }
 
 

@@ -1,6 +1,7 @@
 package app;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 
 public class Library implements Iterable<Books> {
@@ -15,24 +16,19 @@ public class Library implements Iterable<Books> {
     }
 
 
-    public Optional<Books> findByAuthor(String author) {
-        if (author.isEmpty()) {
-            System.out.println("No book found with the given author");
-        } else
-            return Optional.ofNullable(books.get(author));
-        //tworzy Optional z podaną wartością, ale w przypadku przekazania null nie zostanie zgłoszony wyjątek.
-
-        return null;
+    public List<Books> findByAuthor(String author) {
+        return books.values()
+                .stream()
+                .filter(x->x.getAuthor().contains(author))
+                .collect(Collectors.toList());
     }
 
 
     public List<Books> findByIsbn(String isbn) {
-        List<Books> result = new ArrayList<>();
-        for (Books b : books.values()) {
-            if (b.getIsbn().contains(isbn))
-                result.add(b);
-        }
-        return result;
+        return books.values()
+                .stream()
+                .filter(b -> b.getIsbn().contains(isbn))
+                .collect(Collectors.toList());
     }
 
 
@@ -47,14 +43,16 @@ public class Library implements Iterable<Books> {
 
 
     public void maxNunberOfPages() {
-        Optional<Books> a = books.values().stream()
+        Optional<Books> optionalBooks = books.values()
+                .stream()
                 .max(Comparator.comparing(Books::getNumberOfPages));
-        System.out.println(a.toString());
+        optionalBooks.stream()
+                .forEach(System.out::println);
     }
 
 
-    public List<Books> getSortedBooks(Comparator<Books> comparator) {
-        List<Books> list = new ArrayList<>(this.books.values());
+    public Collection<Books> getSortedBooks(Comparator<Books> comparator) {
+        ArrayList<Books> list = new ArrayList<>(this.books.values());
         list.sort(comparator);
         return list;
     }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66623c0f-9548-4634-9cc0-3cdfc3bec70c" name="Default Changelist" comment="">
+    <list default="true" id="66623c0f-9548-4634-9cc0-3cdfc3bec70c" name="Default Changelist" comment="end1">
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/test/LibraryControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/BibliotekaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/BibliotekaApp.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +17,50 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1SHAKRa68y4bduUqmLSv7ODRgro" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="" />
+      <recent name="app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Start\IdeaProjects\Git\bookApp\src\main\test" />
+      <recent name="C:\Users\Start\IdeaProjects\Git\bookApp\src" />
       <recent name="C:\Users\Start\IdeaProjects\gs-rest-service\BookAppJEDNAMETODA" />
       <recent name="C:\Users\Start\IdeaProjects\gs-rest-service\BookAppJEDNAMETODA\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Start\IdeaProjects\Git\bookApp\src" />
+      <recent name="C:\Users\Start\IdeaProjects\Git\bookApp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,7 +167,16 @@
       <workItem from="1571740414009" duration="1901000" />
       <workItem from="1572098189569" duration="1325000" />
       <workItem from="1572258309798" duration="12224000" />
-      <workItem from="1572348906367" duration="1070000" />
+      <workItem from="1572348906367" duration="1180000" />
+      <workItem from="1572354047699" duration="3061000" />
+      <workItem from="1575116416867" duration="118000" />
+      <workItem from="1575117714230" duration="1210000" />
+      <workItem from="1575193167991" duration="61000" />
+      <workItem from="1575895658067" duration="2219000" />
+      <workItem from="1575967270240" duration="634000" />
+      <workItem from="1582536640517" duration="454000" />
+      <workItem from="1582537106713" duration="734000" />
+      <workItem from="1582537851710" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="end">
       <created>1572349657351</created>
@@ -166,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572349764667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="end">
+      <created>1572350016185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350016185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="end" />
-    <option name="LAST_COMMIT_MESSAGE" value="end" />
+    <MESSAGE value="end1" />
+    <option name="LAST_COMMIT_MESSAGE" value="end1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BookAppJEDNAMETODA$BibliotekaApp.ic" NAME="BibliotekaApp Coverage Results" MODIFIED="1571296586317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

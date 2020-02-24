@@ -16,9 +16,42 @@
                     <source>11</source>
                     <target>11</target>
                 </configuration>
+
+                    <dependencies>
+                        <!-- https://mvnrepository.com/artifact/junit/junit-dep -->
+                        <dependency>
+                            <groupId>junit</groupId>
+                            <artifactId>junit-dep</artifactId>
+                            <version>4.10</version>
+                            <scope>test</scope>
+                        </dependency>
+
+
+                        <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+                        <dependency>
+                            <groupId>org.assertj</groupId>
+                            <artifactId>assertj-core</artifactId>
+                            <version>3.12.1</version>
+                            <scope>test</scope>
+                        </dependency>
+                    </dependencies>
+
+
+
             </plugin>
         </plugins>
+
+
+
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
